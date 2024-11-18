@@ -94,7 +94,6 @@ fun Start(m: Modifier,game:Game) {
         ) {
             Text(text = msg)
         }
-
         Text(text = "%.2f 秒".format(counter * .04), modifier = m)
 
         Button(
